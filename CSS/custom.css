@@ -1,0 +1,37 @@
+#parallax-hero .parallax-container {
+	height: 100vh;
+}
+
+nav li:hover {
+	background-color: #673ab7;
+}
+
+#about, #services, #benefits {
+	padding: 2.5rem;
+}
+
+#divider .parallax-container {
+	height: 250px;
+}
+
+#gallery {
+	margin: auto;
+	text-align: center;
+}
+
+#gallery h4 {
+	padding-top: 2.5rem;
+}
+
+#gallery .materialboxed {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 416px;
+}
+
+@media only screen and (max-width: 600px) {
+    #gallery .materialboxed {
+        max-width: 100%;
+    }
+}
